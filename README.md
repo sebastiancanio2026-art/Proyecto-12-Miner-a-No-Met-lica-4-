@@ -1,3 +1,6 @@
+> **Proyecto 12: Minería No Metálica** | Ing. Civil Plan Común – Sede Temuco  
+> **Integrantes:** Sebastián Canio y Matías Levi  
+---
 # Proyecto: Análisis Automatizado de Minería No Metálica
 
 Este proyecto forma parte de los avances prácticos para el curso de Programación Avanzada. Su objetivo es implementar un pipeline modular en Python para la ingesta, limpieza, transformación, análisis estadístico, cálculo de indicadores y visualización de datos de la minería no metálica.
@@ -33,3 +36,10 @@ proyecto12/
 ├── main.py                 # Script orquestador del pipeline completo
 ├── requirements.txt        # Dependencias del proyecto
 └── README.md               # Documentación del proyecto
+## Cómo ejecutar el dashboard
+
+Asegúrate de tener instaladas las dependencias e inicia la aplicación con el siguiente comando:
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
